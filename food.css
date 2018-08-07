@@ -25,6 +25,11 @@
    border-color: black;
 }
 
+.biotext{
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 .blank{
   font-size: 30px;
   color: #c4bfaf;
@@ -46,9 +51,4 @@ text-align: center;
   float: center;
   column-count: 4;
   margin: 0;
-}
-
-
-.biopic{
-  align-content: left;
 }
