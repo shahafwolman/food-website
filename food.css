@@ -39,6 +39,7 @@ text-align: center;
   border: #dddddd 5px solid;
   padding: 10px 6px 4px 6px;
   color: "light gray";
+   border-color: black;
 }
 
 .row{
