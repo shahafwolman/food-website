@@ -18,13 +18,18 @@
 }
 
 .bio{
-  padding: 10px 6px 4px 6px;
-   color: "light gray";
-   background-color: "light gray";
+  padding: 10px 258px 300px 6px;
+   color: "gray";
+   background-color: "gray";
    border: #dddddd 5px solid;
+   border-color: black;
 }
 
 .blank{
   font-size: 30px;
   color: gray;
+}
+
+.biopic{
+  align-content: left;
 }
