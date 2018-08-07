@@ -28,3 +28,21 @@
   font-size: 30px;
   color: gray;
 }
+.recipes{
+text-align: center;
+}
+
+.column{
+  border: #dddddd 5px solid;
+  padding: 10px 6px 4px 6px;
+  color: "light gray";
+}
+
+.row{
+  text-align:center;
+  float: center;
+  column-count: 4;
+  margin: 0;
+
+
+}
