@@ -150,3 +150,12 @@ background-size: cover;
 .img1{
   background-image: url("https://kraftedbykelly.files.wordpress.com/2011/03/jamie4.jpg");
 }
+.hometitle{
+text-align: center;
+font-size: 50px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.hometext{
+text-align: center;
+font-size: 20px;
+font-family: 'Source Sans Pro', sans-serif;
