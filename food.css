@@ -78,6 +78,8 @@
 	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
+
+/*drop down menu*/
 #primary_nav_wrap ul li
 {
 	position:relative;
@@ -123,6 +125,8 @@
 	top:0;
 	left:100%;
 }
+
+
 .column{
   border: #dddddd 5px solid;
   padding: 10px 6px 4px 6px;
@@ -149,4 +153,10 @@ background-size: cover;
 }
 .img1{
   background-image: url("https://kraftedbykelly.files.wordpress.com/2011/03/jamie4.jpg");
+}
+
+/*breakfast pictures*/
+.bp{
+  height: 300px;
+  width: 300px;
 }
