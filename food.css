@@ -48,7 +48,6 @@ text-align: center;
 =======
   color: "light gray";
    border-color: black;
->>>>>>> 229c54207f76abac8cf0f15fb1ffbdd36f92fff9
 }
 
 .row{
@@ -56,4 +55,16 @@ text-align: center;
   float: center;
   column-count: 4;
   margin: 0;
+}
+.pictures{
+height: 200px; width:300px;
+}
+.parallax {
+height: 500px;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+.img1{
+  background-image: url("https://kraftedbykelly.files.wordpress.com/2011/03/jamie4.jpg");
 }
