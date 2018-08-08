@@ -51,6 +51,7 @@
   height: 50px;
 }
 
+<<<<<<< HEAD
 #primary_nav_wrap
 {
 	margin-top:15px
@@ -121,9 +122,31 @@
 {
 	top:0;
 	left:100%
+=======
+.column{
+  border: #dddddd 5px solid;
+  padding: 10px 6px 4px 6px;
+<<<<<<< HEAD
+  color: "gray";
+=======
+  color: "light gray";
+   border-color: black;
+>>>>>>> 2bdd36f540b30d3c508456679d30108a81dfa017
 }
 
 #primary_nav_wrap ul li:hover > ul
 {
 	display:block
+}
+.pictures{
+height: 200px; width:300px;
+}
+.parallax {
+height: 500px;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+.img1{
+  background-image: url("https://kraftedbykelly.files.wordpress.com/2011/03/jamie4.jpg");
 }
