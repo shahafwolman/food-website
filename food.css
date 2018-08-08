@@ -43,7 +43,12 @@ text-align: center;
 .column{
   border: #dddddd 5px solid;
   padding: 10px 6px 4px 6px;
+<<<<<<< HEAD
   color: "gray";
+=======
+  color: "light gray";
+   border-color: black;
+>>>>>>> 229c54207f76abac8cf0f15fb1ffbdd36f92fff9
 }
 
 .row{
