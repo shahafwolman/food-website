@@ -54,7 +54,7 @@
 
 #primary_nav_wrap
 {
-	margin-top:15px;
+	margin-top:0px;
 }
 
 #primary_nav_wrap ul
@@ -69,12 +69,13 @@
 #primary_nav_wrap ul a
 {
 	display:block;
-	color:#333;
+	color:black;
+  background-color: white;
 	text-decoration:none;
 	font-weight:700;
 	font-size:12px;
 	line-height:32px;
-	padding:0 15px;
+	padding:0px 20px;
 	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
@@ -127,16 +128,6 @@
 }
 
 
-.column{
-  border: #dddddd 5px solid;
-  padding: 10px 6px 4px 6px;
-
-  color: "gray";
-
-  color: "light gray";
-   border-color: black;
-
-}
 
 #primary_nav_wrap ul li:hover > ul
 {
@@ -193,4 +184,19 @@ html,body {
 .blank2{
   font-size: 159px;
     color: #c4bfaf;
+}
+
+.image{
+  display: inline-block;
+  width: 305px;
+  height: 350px;
+  margin: 0px;
+}
+
+h1{
+  color: purple;
+}
+
+div{
+  font-size: 18px;
 }
