@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title></title>
+
+    <meta charset="utf-8" />
+
+    <script type='text/javascript'
+
+            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
+
+            async defer></script>
+
+    <script type='text/javascript'>
+
+    var map, infobox;
+
+    var lat = [0.57472, -31.89613,  -0.48014, -18.00626];
+
+    var long = [33.79616, -53.95608, -36.30153, 3.30395];
+
+
+
+    function GetMap() {
+
+        map = new Microsoft.Maps.Map('#myMap', {
+
+            credentials: 'AoYDlUxB1n_Wkk8nKDVnVCFD_SzWWkxX5NoAiYNYhILk2ZXTrYLfe7LMgYash4y1'
+
+        });
+
+
+
+        //Create an infobox at the center of the map but don't show it.
+
+        infobox = new Microsoft.Maps.Infobox(map.getCenter(), {
+
+            visible: false
+
+        });
+
+
+
+        //Assign the infobox to a map instance.
+
+        infobox.setMap(map);
+
+
+
+        //Create random locations in the map bounds.
+
+
+
+        var l = document.getElementById("what");
+
+        var n = 0;
+
+
+
+        for (var i = 0; i < lat.length; i++) {
+
+            var latLon = new Microsoft.Maps.Location(long[i], lat[i]);
+
+            var pin = new Microsoft.Maps.Pushpin(latLon);
+
+
+
+            //Store some metadata with the pushpin.
+
+            pin.metadata = {
+
+                title: 'Pin ' + (i+1),
+
+                description: 'Description for pin ' + (i+1)
+
+            };
+
+
+
+            //Add a click event handler to the pushpin.
+
+            Microsoft.Maps.Events.addHandler(pin, 'click', pushpinClicked);
+
+
+
+            //Add pushpin to the map.
+
+            map.entities.push(pin);
+
+            n++;
+
+
+
+        }
+
+
+
+        l.innerHTML = n;
+
+    }
+
+
+
+    function pushpinClicked(e) {
+
+        //Make sure the infobox has metadata to display.
+
+        if (e.target.metadata) {
+
+            //Set the infobox options with the metadata of the pushpin.
+
+            infobox.setOptions({
+
+                location: e.target.getLocation(),
+
+                title: e.target.metadata.title,
+
+                description: e.target.metadata.description,
+
+                visible: true
+
+            });
+
+        }
+
+    }
+
+    </script>
+
+</head>
+
+<body>
+
+    <div id="myMap" style="position:relative;width:1000px;height:600px;"></div>
+
+    <p id="what"></p>
+
+</body>
+
+</html>
