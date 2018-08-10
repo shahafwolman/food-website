@@ -34,6 +34,7 @@ var pushpin = new Microsoft.Maps.Pushpin(map.getCenter(), { icon: 'https://www.b
     anchor: new Microsoft.Maps.Point(12, 39) });
 map.entities.push(pushpin);
 }
+<<<<<<< HEAD
 (function() {
 	function Slideshow( element ) {
 		this.el = document.querySelector( element );
@@ -86,3 +87,5 @@ map.entities.push(pushpin);
 		var slider = new Slideshow( "#main-slider" );
 	});
 })();
+=======
+>>>>>>> 805a1255c8f740aeb9cd83fed4ad7a35d46b4bc6

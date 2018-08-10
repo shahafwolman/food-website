@@ -27,6 +27,7 @@
           <li><a href="breakfastnr.html">No Restrictions</a></li>
           <li><a href="bfveg.html">Vegetarian</a></li>
           <li><a href="bfvegan.html">Vegan</a></li>
+          <li><a href="bfpesk">Pesketarian</a>
           </li>
         </ul>
       </li>
@@ -36,6 +37,7 @@
           <li><a href="lunchnr.html">No Restrictions</a></li>
           <li><a href="lunchveg.html">Vegetarian</a></li>
           <li><a href="lunchvegan.html">Vegan</a></li>
+          <li><a href="lunchpesk.html">Pesketarian</a>
           </li>
         </ul>
       </li>
@@ -45,6 +47,7 @@
           <li><a href="dinnernr.html">No Restrictions</a></li>
           <li><a href="dinnerveg.html">Vegetarian</a></li>
           <li><a href="dinnervegan.html">Vegan</a></li>
+          <li><a href="dinnerpesk.html">Pesketarian</a>
           </li>
         </ul>
       </li>
@@ -52,7 +55,9 @@
       <li><a href="#">Dessert</a>
       <ul>
         <li><a href="dessertsnr.html">No Restrictions</a></li>
+        <li><a href="dessertsveg.html">Vegetarian</a></li>
         <li><a href="dessertsvegan.html">Vegan</a></li>
+        <li><a href="dessertspesk.html">Pesketarian</a>
         </li>
       </ul>
       </li>
@@ -60,15 +65,16 @@
   </div>
 
 <div class="blank">b</div>
-<div><h1>Dinner-No Restrictions</h1>
-  <div class="image">Szechan Chicken
-  <a target = "_blank" href="https://www.allrecipes.com/recipe/49014/ten-minute-szechuan-chicken/"><img src="chicken.jpg" height = "300px" width = "300px"></a></div>
-  <div class="image">Roast Beef
-  <a target = "_blank" href="https://eatsmarter.com/recipes/roast-beef-dinner"><img src="beef.jpg" height = "300px" width = "300px"></a></div>
-  <div class="image">Lasagna Flatbread
-  <a target = "_blank" href="https://www.allrecipes.com/recipe/255462/lasagna-flatbread/"><img src="flatbread.jpg" height = "300px" width = "300px"></a></div>
-  <div class="image">Sunday Dinner Stew
-  <a target = "_blank" href="https://www.bhg.com/recipe/sunday-dinner-stew/"><img src="stew.jpg" height = "300px" width = "300px"></a></div>
+<div><h1>Desserts-No Restrictions</h1>
+  <div><a href="https://www.allrecipes.com/recipe/134553/avocado-lime-cheesecake/?internalSource=staff%20pick&referringId=79&referringContentType=Recipe%20Hub">Avocado Lime Cheesecake</a></div>
+  <div><img height="300px" width="300px" src="cheesecake.jpg"></img></div>
+  <div><a href="https://www.realsimple.com/food-recipes/browse-all-recipes/three-bean-chili-spring-pesto">Three-Bean Chili Spring Pesto</a></div>
+  <div><img height = "300px" width = "300px" src="hotfudge.jpg"></img></div>
+  <div><a href="https://www.realsimple.com/food-recipes/browse-all-recipes/curried-eggplant-tomatoes-basil">Curried Eggplant with Tomatoes and Basil</a></div>
+  <div><img height = "300px" width = "300px"src="eggplant.jpg"></img></div>
+  <div><a href="https://www.allrecipes.com/recipe/246628/spaghetti-cacio-e-pepe/">Pita Pizza</a></div>
+  <div><img height = "300px" width = "300px"src="pizza.jpg"></img></div>
+
 
 
 </body>
