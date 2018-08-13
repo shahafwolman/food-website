@@ -114,11 +114,11 @@ map.entities.push(pushpin);
 }
 
 
-(function() {
+
 	function Slideshow( element ) {
 		this.el = document.querySelector( element );
 		this.init();
-	}
+
 	Slideshow.prototype = {
 		init: function() {
 			this.wrapper = this.el.querySelector( ".slider-wrapper" );
@@ -163,7 +163,7 @@ map.entities.push(pushpin);
 		}
   }
 }
-)};
+};
 	document.addEventListener( "DOMContentLoaded", function() {
 		var slider = new Slideshow( "#main-slider" );
 	});
