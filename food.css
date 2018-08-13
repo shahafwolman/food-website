@@ -146,7 +146,7 @@
 .pictures{
 height: 200px; width:300px;
 }
-<<<<<<< HEAD
+HEAD
 .parallax {
 height: 500px;
 background-attachment: fixed;
@@ -157,8 +157,6 @@ background-size: cover;
   background-image: url("https://kraftedbykelly.files.wordpress.com/2011/03/jamie4.jpg");
 }
 
-=======
->>>>>>> d46cc81fde41d1af271f9430f5ecec17d41d08fb
 /*breakfast pictures*/
 .bp{
   height: 300px;
@@ -215,7 +213,7 @@ font-family: 'Source Sans Pro', sans-serif;
 #myMap{
   width: 100%;
   height: 100%;
-=======
+
 html,body {
 	margin: 0;
 	padding: 0;
@@ -251,7 +249,7 @@ html,body {
   background-position: center;
   background-size: cover;
 }
-.img1{
+.img3{
   background-image: url("https://kraftedbykelly.files.wordpress.com/2011/03/jamie4.jpg");
 }
 .other{
@@ -278,5 +276,4 @@ h1{
 
 div{
   font-size: 18px;
->>>>>>> d46cc81fde41d1af271f9430f5ecec17d41d08fb
 }
