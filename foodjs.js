@@ -111,7 +111,6 @@ var pushpin = new Microsoft.Maps.Pushpin(map.getCenter(), { icon: 'https://www.b
 map.entities.push(pushpin);
 
 
-
 }
 
 
@@ -162,9 +161,12 @@ map.entities.push(pushpin);
 				self.action();
 			}, false);
 		}
-	};
+  }
+}
+)};
 	document.addEventListener( "DOMContentLoaded", function() {
 		var slider = new Slideshow( "#main-slider" );
 	});
+
 })();
 }

@@ -153,7 +153,7 @@ background-attachment: fixed;
 background-position: center;
 background-size: cover;
 }
-.img3{
+.img1{
   background-image: url("https://kraftedbykelly.files.wordpress.com/2011/03/jamie4.jpg");
 }
 
@@ -214,8 +214,13 @@ font-family: 'Source Sans Pro', sans-serif;
 #myMap{
   width: 100%;
   height: 100%;
+
 }
-html, body{
+
+
+
+html,body {
+
 	margin: 0;
 	padding: 0;
 }
@@ -277,5 +282,4 @@ h1{
 
 div{
   font-size: 18px;
-
 }
