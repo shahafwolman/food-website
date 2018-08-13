@@ -75,8 +75,8 @@
 #primary_nav_wrap ul a
 {
 	display:block;
-	color:black;
-  background-color: white;
+	color: white;
+  background-color: green;
 	text-decoration:none;
 	font-weight:700;
 	font-size:12px;
@@ -146,11 +146,7 @@
 .pictures{
 height: 200px; width:300px;
 }
-<<<<<<< HEAD
-HEAD
-=======
 
->>>>>>> 0da989c64809baf61b68162353fbb1e0dc8aff1c
 .parallax {
 height: 500px;
 background-attachment: fixed;
@@ -161,10 +157,7 @@ background-size: cover;
   background-image: url("https://kraftedbykelly.files.wordpress.com/2011/03/jamie4.jpg");
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 0da989c64809baf61b68162353fbb1e0dc8aff1c
 /*breakfast pictures*/
 .bp{
   height: 300px;
@@ -222,13 +215,10 @@ font-family: 'Source Sans Pro', sans-serif;
   width: 100%;
   height: 100%;
 
-<<<<<<< HEAD
-=======
+
 }
 
 
-
->>>>>>> 0da989c64809baf61b68162353fbb1e0dc8aff1c
 html,body {
 
 	margin: 0;
@@ -287,9 +277,10 @@ div#nav ul{
 }
 
 h1{
-  color: purple;
+  color: green;
 }
 
 div{
   font-size: 18px;
+
 }
