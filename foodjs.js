@@ -172,6 +172,3 @@ HEAD
 	document.addEventListener( "DOMContentLoaded", function() {
 		var slider = new Slideshow( "#main-slider" );
 	});
-
-})();
-}
