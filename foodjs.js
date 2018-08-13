@@ -58,7 +58,7 @@ function GetMap() {
             title: 'Pin ' + (i+1),
             description: 'Description for pin ' + (i+1)
 
-          }
+          };
 
 
         //Add a click event handler to the pushpin.
@@ -109,8 +109,16 @@ var map = new Microsoft.Maps.Map(document.getElementById('myMap'), {});
 var pushpin = new Microsoft.Maps.Pushpin(map.getCenter(), { icon: 'https://www.bingmapsportal.com/Content/images/poi_custom.png',
     anchor: new Microsoft.Maps.Point(12, 39) });
 map.entities.push(pushpin);
+<<<<<<< HEAD
 }
 HEAD
+=======
+
+
+}
+
+
+>>>>>>> 0da989c64809baf61b68162353fbb1e0dc8aff1c
 (function() {
 	function Slideshow( element ) {
 		this.el = document.querySelector( element );
@@ -158,9 +166,12 @@ HEAD
 				self.action();
 			}, false);
 		}
-	};
+  }
+}
+)};
 	document.addEventListener( "DOMContentLoaded", function() {
 		var slider = new Slideshow( "#main-slider" );
 	});
+
 })();
 }
