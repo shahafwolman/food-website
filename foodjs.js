@@ -110,11 +110,10 @@ var pushpin = new Microsoft.Maps.Pushpin(map.getCenter(), { icon: 'https://www.b
     anchor: new Microsoft.Maps.Point(12, 39) });
 map.entities.push(pushpin);
 
-<<<<<<< HEAD
-=======
+
 }
 
->>>>>>> 7d97fcc98adbd351db729f2aa5ae04bf2517052e
+
 (function() {
 	function Slideshow( element ) {
 		this.el = document.querySelector( element );
@@ -162,8 +161,9 @@ map.entities.push(pushpin);
 				self.action();
 			}, false);
 		}
-	};
+  }
+}
+)};
 	document.addEventListener( "DOMContentLoaded", function() {
 		var slider = new Slideshow( "#main-slider" );
 	});
-})();
