@@ -167,6 +167,3 @@ map.entities.push(pushpin);
 	document.addEventListener( "DOMContentLoaded", function() {
 		var slider = new Slideshow( "#main-slider" );
 	});
-
-})();
-}
