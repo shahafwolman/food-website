@@ -28,7 +28,8 @@ var Long = [-87.90039519999999, -87.9031948,-87.90536859999997,-87.9029264999999
 var map, infobox;
 var lat = [30.5423159,30.5219341,30.5224853,	30.6035039];
 var long = [-87.90039519999999, -87.9031948,-87.90536859999997,-87.90292649999998];
-
+var titles = ["Sunset Point", "Panini Petes"]
+var descriptions = ["(251) 990-7766 831 N. Section Street Fairhope, Alabama", "hi"]
 function GetMap() {
     map = new Microsoft.Maps.Map('#myMap', {
         credentials: 'AoYDlUxB1n_Wkk8nKDVnVCFD_SzWWkxX5NoAiYNYhILk2ZXTrYLfe7LMgYash4y1'
@@ -55,8 +56,9 @@ function GetMap() {
 
         //Store some metadata with the pushpin.
         pin.metadata = {
-            title: 'Pin ' + (i+1),
-            description: 'Description for pin ' + (i+1)
+            title: (titles[i]) + (i+1)
+            description:(descriptions[i]) + (i+1)
+          }
 
           };
 
