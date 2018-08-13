@@ -58,7 +58,7 @@ function GetMap() {
             title: 'Pin ' + (i+1),
             description: 'Description for pin ' + (i+1)
 
-          }
+          };
 
 
         //Add a click event handler to the pushpin.
@@ -164,3 +164,4 @@ map.entities.push(pushpin);
 		var slider = new Slideshow( "#main-slider" );
 	});
 })();
+}
