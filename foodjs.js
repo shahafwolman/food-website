@@ -8,7 +8,7 @@ function makeBlack(b){
   b.style.backgroundColor = "black";
   b.style.color = "white";
 }
-<<<<<<< HEAD
+
 
 
 /*var view;
@@ -83,7 +83,7 @@ function pushpinClicked(e) {
             visible: true
         });
     }
-=======
+
 /*MAP API */
 var view;
 var map;
@@ -109,9 +109,7 @@ var map = new Microsoft.Maps.Map(document.getElementById('myMap'), {});
 var pushpin = new Microsoft.Maps.Pushpin(map.getCenter(), { icon: 'https://www.bingmapsportal.com/Content/images/poi_custom.png',
     anchor: new Microsoft.Maps.Point(12, 39) });
 map.entities.push(pushpin);
->>>>>>> d46cc81fde41d1af271f9430f5ecec17d41d08fb
-}
-<<<<<<< HEAD
+
 (function() {
 	function Slideshow( element ) {
 		this.el = document.querySelector( element );
@@ -164,5 +162,3 @@ map.entities.push(pushpin);
 		var slider = new Slideshow( "#main-slider" );
 	});
 })();
-=======
->>>>>>> 805a1255c8f740aeb9cd83fed4ad7a35d46b4bc6
