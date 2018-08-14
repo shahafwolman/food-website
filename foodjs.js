@@ -167,3 +167,8 @@ map.entities.push(pushpin);
 	document.addEventListener( "DOMContentLoaded", function() {
 		var slider = new Slideshow( "#main-slider" );
 	});
+
+  function foodTitle(ft){
+      ft.style.backgroundColor= "#c4bfaf";
+      ft.style.color = "black";
+  }

@@ -133,11 +133,11 @@
 }
 
 .column{
-  border: #dddddd 5px solid;
+
   padding: 10px 6px 4px 6px;
   color: "gray";
   color: "light gray";
-   border-color: black;
+
 }
 #primary_nav_wrap ul li:hover > ul
 {
@@ -276,11 +276,68 @@ div#nav ul{
   margin: 0px;
 }
 
-h1{
-  color: green;
+
+
+.column {
+	margin: 15px 5px 0;
+	padding: 0;
+}
+.column:last-child {
+	padding-bottom: 60px;
+}
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div {
+	position: relative;
+	float: left;
+	width: 295px;
+	height: 295px;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 295px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+figure {
+	width: 295px;
+	height: 295px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
 }
 
-div{
-  font-size: 18px;
 
+/* Opacity #1 */
+.hover11 figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover11 figure:hover img {
+	opacity: .5;
 }
