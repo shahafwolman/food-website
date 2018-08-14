@@ -141,7 +141,7 @@ var pushpin = new Microsoft.Maps.Pushpin(map.getCenter(), { icon: 'https://www.b
 map.entities.push(pushpin);
 }
 
-<<<<<<< HEAD
+
 $(function(){
     $('#main-slider img:gt(0)').hide();
     setInterval(function(){
@@ -150,63 +150,8 @@ $(function(){
          .end().appendTo('#main-slider');},
       3000);
 });
-=======
 
 
-	function Slideshow( element ) {
-		this.el = document.querySelector( element );
-		this.init();
-
-	Slideshow.prototype = {
-		init: function() {
-			this.wrapper = this.el.querySelector( ".slider-wrapper" );
-			this.slides = this.el.querySelectorAll( ".slide" );
-			this.previous = this.el.querySelector( ".slider-previous" );
-			this.next = this.el.querySelector( ".slider-next" );
-			this.index = 0;
-			this.total = this.slides.length;
-			this.timer = null;
-			this.action();
-			this.stopStart();
-		},
-		_slideTo: function( slide ) {
-			var currentSlide = this.slides[slide];
-			currentSlide.style.opacity = 1;
-			for( var i = 0; i < this.slides.length; i++ ) {
-				var slide = this.slides[i];
-				if( slide !== currentSlide ) {
-					slide.style.opacity = 0;
-				}
-			}
-		},
-		action: function() {
-			var self = this;
-			self.timer = setInterval(function() {
-				self.index++;
-				if( self.index == self.slides.length ) {
-					self.index = 0;
-				}
-				self._slideTo( self.index );
-			}, 4000);
-		},
-		stopStart: function() {
-			var self = this;
-			self.el.addEventListener( "mouseover", function() {
-				clearInterval( self.timer );
-				self.timer = null;
-			}, false);
-			self.el.addEventListener( "mouseout", function() {
-				self.action();
-			}, false);
-		}
-  }
-}
-};
-	document.addEventListener( "DOMContentLoaded", function() {
-		var slider = new Slideshow( "#main-slider" );
-	});
-
-<<<<<<< HEAD
   // Extra things to add to bottom
   filterSelection("all") // Execute the function and show all columns
 function filterSelection(c) {
@@ -246,18 +191,17 @@ function w3RemoveClass(element, name) {
 }
 
 // Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
-=======
+// var btnContainer = document.getElementById("myBtnContainer");
+// var btns = btnContainer.getElementsByClassName("btn");
+// for (var i = 0; i < btns.length; i++) {
+//   btns[i].addEventListener("click", function(){
+//     var current = document.getElementsByClassName("active");
+//     current[0].className = current[0].className.replace(" active", "");
+//     this.className += " active";
+//   });
+// }
+
   function foodTitle(ft){
       ft.style.backgroundColor= "#c4bfaf";
       ft.style.color = "black";
   }
->>>>>>> 6ceb724f9054ad71271fa2acdd1280f2c7fc26d9
