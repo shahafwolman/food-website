@@ -150,6 +150,7 @@ $(function(){
          .end().appendTo('#main-slider');},
       3000);
 });
+<<<<<<< HEAD
 
 
 
@@ -206,6 +207,10 @@ $(function(){
 		var slider = new Slideshow( "#main-slider" );
 	});
 
+=======
+
+
+>>>>>>> 1dc470fe2777ef4b919f31e9be7fa672faa8c477
   // Extra things to add to bottom
   filterSelection("all") // Execute the function and show all columns
 function filterSelection(c) {
@@ -245,6 +250,7 @@ function w3RemoveClass(element, name) {
 }
 
 // Add active class to the current button (highlight it)
+<<<<<<< HEAD
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
@@ -254,6 +260,18 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+=======
+// var btnContainer = document.getElementById("myBtnContainer");
+// var btns = btnContainer.getElementsByClassName("btn");
+// for (var i = 0; i < btns.length; i++) {
+//   btns[i].addEventListener("click", function(){
+//     var current = document.getElementsByClassName("active");
+//     current[0].className = current[0].className.replace(" active", "");
+//     this.className += " active";
+//   });
+// }
+
+>>>>>>> 1dc470fe2777ef4b919f31e9be7fa672faa8c477
   function foodTitle(ft){
       ft.style.backgroundColor= "#c4bfaf";
       ft.style.color = "black";
