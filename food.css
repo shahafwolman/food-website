@@ -132,11 +132,6 @@
 	left:100%;
 }
 
-.column{
-
-  padding: 10px 6px 4px 6px;
-  color: "gray";
-  color: "light gray";
 
 }
 #primary_nav_wrap ul li:hover > ul
@@ -276,7 +271,7 @@ div#nav ul{
   margin: 0px;
 }
 
-<<<<<<< HEAD
+
 
 
 .column {
@@ -330,10 +325,9 @@ figure {
 figure:hover+span {
 	bottom: -36px;
 	opacity: 1;
-=======
+
 h1{
   color: white;
->>>>>>> 302346d558b609dc0b70be3d68fa4c65efad1f42
 }
 
 
