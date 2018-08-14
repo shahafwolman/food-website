@@ -64,16 +64,47 @@
     </p>
 
 <div class="blank">b</div>
-<div><h1>Breakfast-Vegetarian</h1>
-<div><a href="http://www.eatingwell.com/recipe/265482/broccoli-cheddar-quiche-with-sweet-potato-crust/">Broccoli-Chedar Quiche with Sweet Potato Crust</a></div>
-<div><img height = "300px" width = "300px"src="quiche.jpg"></img></div>
-<div><a href="http://www.eatingwell.com/recipe/263475/french-toast/">French Toast</a></div>
-<div><img height = "300px" width = "300px" src="http://images.media-allrecipes.com/userphotos/960x960/5611843.jpg"></img></div>
-<div><a href="http://www.eatingwell.com/recipe/265132/lemon-bread/">Lemon Bread</a></div>
-<div><img height = "300px" width = "300px" src="http://images.media-allrecipes.com/userphotos/960x960/5450203.jpg"></img></div>
-<div><a href="http://www.eatingwell.com/recipe/264961/tropical-coffee-cake/">Tropical Coffee Cake</a></div>
-<div><img height = "300px" width = "300px" src="http://images.media-allrecipes.com/userphotos/960x960/5456603.jpg"></img></div>
+<div><h1>Breakfast-Vegan</h1>
 
+
+<div class="hover11 column">
+  <div>
+    <figure><div><a target = "_blank" href="https://www.foodnetwork.com/recipes/ree-drummond/pws-breakfast-burritos-recipe-2058867"><img src="quiche.jpg" height = "300px" width = "300px"></a></div></figure>
+    <span>Broccoli-Cheddar Quiche</span>
+  </div>
+  <div>
+    <figure><div><a target = "_blank" href="http://www.eatingwell.com/recipe/265132/lemon-bread/"><img src="http://images.media-allrecipes.com/userphotos/960x960/5450203.jpg" height = "300px" width = "300px"></a></div></figure>
+    <span>Lemon Bread</span>
+  </div>
+  <div>
+    <figure><div><a target = "_blank" href="http://www.eatingwell.com/recipe/263475/french-toast/"><img src="http://images.media-allrecipes.com/userphotos/960x960/5611843.jpg" height = "300px" width = "300px"></a></div></figure>
+    <span>French Toast</span>
+  </div>
+  <div>
+    <figure><div><a target = "_blank" href="http://www.eatingwell.com/recipe/264961/tropical-coffee-cake/"><img src="http://images.media-allrecipes.com/userphotos/960x960/5456603.jpg" height = "300px" width = "300px"></a></div></figure>
+    <span>Tropical Coffee Cake</span>
+  </div>
+</div>
+
+<div class="blank">d</div>
+<div class="hover11 column">
+  <div>
+    <figure><div><a target = "_blank" href="http://www.eatingwell.com/recipe/265132/lemon-bread/"><img src="http://images.media-allrecipes.com/userphotos/960x960/5450203.jpg" height = "300px" width = "300px"></a></div></figure>
+    <span>Lemon Bread</span>
+  </div>
+  <div>
+    <figure><div><a target = "_blank" href="https://www.foodnetwork.com/recipes/sunny-anderson/sunnys-perfect-scrambled-cheesy-eggs-recipe-1924167"><img src="scrambled.jpg" height = "300px" width = "300px"></a></div></figure>
+    <span>Sunny's Perfect Scrambled Eggs</span>
+  </div>
+  <div>
+    <figure><div><a target = "_blank" href="https://cooking.nytimes.com/recipes/1017083-sausage-rolls"><img src="sausage.jpg" height = "300px" width = "300px"></a></div></figure>
+    <span>Sausage Rolls</span>
+  </div>
+  <div>
+    <figure><div><a target = "_blank" href="http://www.eatingwell.com/recipe/263475/french-toast/"><img src="http://images.media-allrecipes.com/userphotos/960x960/5611843.jpg" height = "300px" width = "300px"></a></div></figure>
+    <span>French Toast</span>
+  </div>
+</div>
 
 </body>
 </html>
