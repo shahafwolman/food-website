@@ -113,7 +113,7 @@ function pushpinClicked(e) {
             visible: true
         });
     }
-
+}
 /*MAP API */
 var view;
 var map;
@@ -139,10 +139,18 @@ var map = new Microsoft.Maps.Map(document.getElementById('myMap'), {});
 var pushpin = new Microsoft.Maps.Pushpin(map.getCenter(), { icon: 'https://www.bingmapsportal.com/Content/images/poi_custom.png',
     anchor: new Microsoft.Maps.Point(12, 39) });
 map.entities.push(pushpin);
-
-
 }
 
+<<<<<<< HEAD
+$(function(){
+    $('#main-slider img:gt(0)').hide();
+    setInterval(function(){
+      $('#main-slider :first-child').fadeOut()
+         .next('img').fadeIn()
+         .end().appendTo('#main-slider');},
+      3000);
+});
+=======
 
 
 	function Slideshow( element ) {
