@@ -131,6 +131,11 @@
 	left:100%;
 }
 
+.column{
+
+  padding: 10px 6px 4px 6px;
+  color: "gray";
+  color: "light gray";
 
 }
 #primary_nav_wrap ul li:hover > ul
@@ -271,6 +276,9 @@ div#nav ul{
   border-radius: 25px;
 }
 
+
+
+
 .column {
 	margin: 15px 5px 0;
 	padding: 0;
@@ -322,14 +330,10 @@ figure {
 figure:hover+span {
 	bottom: -36px;
 	opacity: 1;
-
 }
 h1{
   color: white;
 
-}
-h1{
-  color: white;
 }
 
 
