@@ -276,6 +276,7 @@ div#nav ul{
   margin: 0px;
 }
 
+<<<<<<< HEAD
 
 
 .column {
@@ -329,6 +330,10 @@ figure {
 figure:hover+span {
 	bottom: -36px;
 	opacity: 1;
+=======
+h1{
+  color: white;
+>>>>>>> 302346d558b609dc0b70be3d68fa4c65efad1f42
 }
 
 
@@ -340,4 +345,19 @@ figure:hover+span {
 }
 .hover11 figure:hover img {
 	opacity: .5;
+}
+/* Home page */
+.container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+}
+
+.container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
 }
