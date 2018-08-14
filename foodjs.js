@@ -198,7 +198,6 @@ map.entities.push(pushpin);
 		var slider = new Slideshow( "#main-slider" );
 	});
 
-<<<<<<< HEAD
   // Extra things to add to bottom
   filterSelection("all") // Execute the function and show all columns
 function filterSelection(c) {
@@ -247,9 +246,7 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
-=======
   function foodTitle(ft){
       ft.style.backgroundColor= "#c4bfaf";
       ft.style.color = "black";
   }
->>>>>>> 6ceb724f9054ad71271fa2acdd1280f2c7fc26d9
