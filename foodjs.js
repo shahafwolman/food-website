@@ -141,7 +141,7 @@ var pushpin = new Microsoft.Maps.Pushpin(map.getCenter(), { icon: 'https://www.b
 map.entities.push(pushpin);
 }
 
-<<<<<<< HEAD
+
 $(function(){
     $('#main-slider img:gt(0)').hide();
     setInterval(function(){
@@ -150,7 +150,7 @@ $(function(){
          .end().appendTo('#main-slider');},
       3000);
 });
-=======
+
 
 
 	function Slideshow( element ) {
@@ -200,8 +200,8 @@ $(function(){
 			}, false);
 		}
   }
-}
 };
+
 	document.addEventListener( "DOMContentLoaded", function() {
 		var slider = new Slideshow( "#main-slider" );
 	});
