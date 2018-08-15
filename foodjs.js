@@ -34,8 +34,8 @@ var titles = ["The Pink Door", "Pick Place Chowder", "Ocean Palace Resturant ", 
 "Pizzazza", "Hacienda De Sol", "Gonzalez Mexican Restaurant", "Black Diamond Pizza & Deli",
 "Drayton Harbor Oyster Company", "Munchen Haus", "Chicos Pizza Parlor", "The Black Duck Cask and Bottle",
 "Wild Huckleberry", "Good Mood Food", "Watershed Cafe", "The Kettle", "Country Boys BBQ", "White HOuse Cafe", "Los Hernandez",
-"Masala Indian Cuisine", "Five Stone Cafe", "Tipsy Cow Burger Bar", "bene's cheney", "Monterey Pub & Grub","
-Zip's Drive In","Copper hana"]
+"Masala Indian Cuisine", "Five Stone Cafe", "Tipsy Cow Burger Bar", "bene's cheney", "Monterey Pub & Grub",
+"Zip's Drive In","Copper hana"]
 
 var descriptions = ["20820 Miller Bay Rd NE, Poulsbo, WA 98370, USA", "20235 Robin Ln NE, Suquamish, WA 98392, USA", "112 E Wishkah, Aberdeen, WA 98520", "20329 Robin Ln NE, Suquamish, WA 98392, USA", "12807 W 14th Ave, Airway Heights, WA 99001", "400 1st Ave N, Algona, WA 98001",
 "510 Commercial Ave, Anacortes, WA 98221", " 906 Commercial Ave, Anacortes, WA 98221", "3617 - 172nd St NE Ste 5, Arlington, WA 98223", "231 N Olympic Ave, Arlington, WA 98223", " 223 N Olympic Ave, Arlington, WA 98223", "21102 67th Ave NE, Arlington, WA 98223", "5438 Woodard Ave, Freeland, WA 98249",
