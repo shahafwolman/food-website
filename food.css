@@ -135,7 +135,11 @@
 
   padding: 10px 6px 4px 6px;
   color: "gray";
+<<<<<<< HEAD
   color:"light gray";
+=======
+  color: "light gray";
+>>>>>>> 57cbc17909d6326d68597275dca2aa1762962ccd
 
 }
 #primary_nav_wrap ul li:hover > ul
@@ -276,6 +280,9 @@ img{
   border-radius: 25px;
 }
 
+
+
+
 .column {
 	margin: 15px 5px 0;
 	padding: 0;
@@ -329,14 +336,10 @@ figure {
 figure:hover+span {
 	bottom: -36px;
 	opacity: 1;
-
 }
 h1{
   color: white;
 
-}
-h1{
-  color: white;
 }
 
 
