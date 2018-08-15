@@ -153,56 +153,107 @@ $(function(){
 });
 
 
-  // Extra things to add to bottom
-  filterSelection("all") // Execute the function and show all columns
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("column6");
-  if (c == "all") c = "";
-  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+
+	function Slideshow( element ) {
+		this.el = document.querySelector( element );
+		this.init();
+
+	Slideshow.prototype = {
+		init: function() {
+			this.wrapper = this.el.querySelector( ".slider-wrapper" );
+			this.slides = this.el.querySelectorAll( ".slide" );
+			this.previous = this.el.querySelector( ".slider-previous" );
+			this.next = this.el.querySelector( ".slider-next" );
+			this.index = 0;
+			this.total = this.slides.length;
+			this.timer = null;
+			this.action();
+			this.stopStart();
+		},
+		_slideTo: function( slide ) {
+			var currentSlide = this.slides[slide];
+			currentSlide.style.opacity = 1;
+			for( var i = 0; i < this.slides.length; i++ ) {
+				var slide = this.slides[i];
+				if( slide !== currentSlide ) {
+					slide.style.opacity = 0;
+				}
+			}
+		},
+		action: function() {
+			var self = this;
+			self.timer = setInterval(function() {
+				self.index++;
+				if( self.index == self.slides.length ) {
+					self.index = 0;
+				}
+				self._slideTo( self.index );
+			}, 4000);
+		},
+		stopStart: function() {
+			var self = this;
+			self.el.addEventListener( "mouseover", function() {
+				clearInterval( self.timer );
+				self.timer = null;
+			}, false);
+			self.el.addEventListener( "mouseout", function() {
+				self.action();
+			}, false);
+		}
   }
 }
 
-// Show filtered elements
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {
-      element.className += " " + arr2[i];
-    }
-  }
-}
+	document.addEventListener( "DOMContentLoaded", function() {
+		var slider = new Slideshow( "#main-slider" );
+	});
 
-// Hide elements that are not selected
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
-    }
-  }
-  element.className = arr1.join(" ");
-}
 
-// Add active class to the current button (highlight it)
-// var btnContainer = document.getElementById("myBtnContainer");
-// var btns = btnContainer.getElementsByClassName("btn");
-// for (var i = 0; i < btns.length; i++) {
-//   btns[i].addEventListener("click", function(){
-//     var current = document.getElementsByClassName("active");
-//     current[0].className = current[0].className.replace(" active", "");
-//     this.className += " active";
-//   });
-// }
 
-  function foodTitle(ft){
-      ft.style.backgroundColor= "#c4bfaf";
-      ft.style.color = "black";
-  }
+                              // Extra things to add to bottom
+  // filterSelection("all") // Execute the function and show all columns
+                    // function filterSelection(c) {
+                    //   var x, i;
+                    //   x = document.getElementsByClassName("column");
+                    //   if (c == "all") c = "";
+                    //   // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+                    //   for (i = 0; i < x.length; i++) {
+                    //     w3RemoveClass(x[i], "show");
+                    //     if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+                    //   }
+                    // }
+                    //
+                    // // Show filtered elements
+                    // function w3AddClass(element, name) {
+                    //   var i, arr1, arr2;
+                    //   arr1 = element.className.split(" ");
+                    //   arr2 = name.split(" ");
+                    //   for (i = 0; i < arr2.length; i++) {
+                    //     if (arr1.indexOf(arr2[i]) == -1) {
+                    //       element.className += " " + arr2[i];
+                    //     }
+                    //   }
+                    // }
+                    //
+                    // // Hide elements that are not selected
+                    // function w3RemoveClass(element, name) {
+                    //   var i, arr1, arr2;
+                    //   arr1 = element.className.split(" ");
+                    //   arr2 = name.split(" ");
+                    //   for (i = 0; i < arr2.length; i++) {
+                    //     while (arr1.indexOf(arr2[i]) > -1) {
+                    //       arr1.splice(arr1.indexOf(arr2[i]), 1);
+                    //     }
+                    //   }
+                    //   element.className = arr1.join(" ");
+                    // }
+                    //
+                    // // Add active class to the current button (highlight it)
+                    // var btnContainer = document.getElementById("myBtnContainer");
+                    // var btns = btnContainer.getElementsByClassName("btn");
+                    // for (var i = 0; i < btns.length; i++) {
+                    //   btns[i].addEventListener("click", function(){
+                    //     var current = document.getElementsByClassName("active");
+                    //     current[0].className = current[0].className.replace(" active", "");
+                    //     this.className += " active";
+                    //   });
+                    // }
