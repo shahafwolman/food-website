@@ -20,13 +20,13 @@ var lat = ["47.750717", "47.744189", "47.01971", "47.745978 ", "47.64225", "47.2
  "48.194622", "48.194315" , "48.187093", "48.01305", "48.009382", "47.306701", "47.307505", "47.624827", "45.780731",
 "47.618702", "48.71852", "46.271106", "45.72", "47.3085", "48.994266", "47.594434", "47.139373",
 "47.53972", "47.420273", "47.59", "47.594401", "47.202499", "47.523741", "46.610385", "46.550507", "46.209251",
-"47.67582", "48.062915 "];
+"47.67582", "48.062915 ","47.483603", "47.486653","47.490431","47.486547"];
 
 var long = ["-122.562177", "-122.575892", "-123.798449", "-122.577684", "-117.58811", "-122.24966","-122.612551", "-122.612621", "-122.1804",
  "-122.12607", "-122.12607", "-122.13515", "-122.53807", "-122.52883", "-122.23071", "-122.22134", "-122.516546", "-122.531",
 "-122.20189", "-122.50199", "-119.48949", "-121.47", "-122.00654", "-122.75191", "-120.66297", "-119.28556",
 "-122.04259", "-120.3099", "-120.66", "-120.66197", "-121.98583", "-120.46981", "-120.55817", "-120.47564", "-119.16836",
-"-122.12469", "-122.865949"];
+"-122.12469", "-122.865949", "-117.5807","-117.57592","-117.571165","-117.576001"];
 
 var titles = ["The Pink Door", "Pick Place Chowder", "Ocean Palace Resturant ", "Zig Zag Cafe", "Wolffys Hamburgers", "Tacos El Tajin",
 "Adrift", "Dads Diner", "Moose Creek BBQ", "Bistro San Martin", "The Stilly Diner", "Hubbs Pizza & Pasta", "Gordon's On Blueberry Hill",
@@ -34,7 +34,8 @@ var titles = ["The Pink Door", "Pick Place Chowder", "Ocean Palace Resturant ", 
 "Pizzazza", "Hacienda De Sol", "Gonzalez Mexican Restaurant", "Black Diamond Pizza & Deli",
 "Drayton Harbor Oyster Company", "Munchen Haus", "Chicos Pizza Parlor", "The Black Duck Cask and Bottle",
 "Wild Huckleberry", "Good Mood Food", "Watershed Cafe", "The Kettle", "Country Boys BBQ", "White HOuse Cafe", "Los Hernandez",
-"Masala Indian Cuisine", "Five Stone Cafe", "Tipsy Cow Burger Bar"]
+"Masala Indian Cuisine", "Five Stone Cafe", "Tipsy Cow Burger Bar", "bene's cheney", "Monterey Pub & Grub","
+Zip's Drive In","Copper hana"]
 
 var descriptions = ["20820 Miller Bay Rd NE, Poulsbo, WA 98370, USA", "20235 Robin Ln NE, Suquamish, WA 98392, USA", "112 E Wishkah, Aberdeen, WA 98520", "20329 Robin Ln NE, Suquamish, WA 98392, USA", "12807 W 14th Ave, Airway Heights, WA 99001", "400 1st Ave N, Algona, WA 98001",
 "510 Commercial Ave, Anacortes, WA 98221", " 906 Commercial Ave, Anacortes, WA 98221", "3617 - 172nd St NE Ste 5, Arlington, WA 98223", "231 N Olympic Ave, Arlington, WA 98223", " 223 N Olympic Ave, Arlington, WA 98223", "21102 67th Ave NE, Arlington, WA 98223", "5438 Woodard Ave, Freeland, WA 98249",
@@ -43,7 +44,7 @@ var descriptions = ["20820 Miller Bay Rd NE, Poulsbo, WA 98370, USA", "20235 Rob
 "677 Peace Portal Dr, Blaine, WA 98230", "709 Front St, Leavenworth, WA 98826 ", "530 W Valley Rd, Moses Lake, WA 98837",
 "317 NW Gilman Blvd Ste 31b, Issaquah, WA 98027 ", "302 S Mission St, Wenatchee, WA 98801", "285 W Us Highway 2, Leavenworth, WA 98826 ", "221 8th St, Leavenworth, WA 98826",
 "1666 Garrett St, Enumclaw, WA 98022", "400 Aplets Way, Cashmere, WA 98815", " 3602 Kern Way, Yakima, WA 98902",
-"3321 W Kennewick Ave, Kennewick, WA 99336", "8102 161st Ave NE, Redmond, WA 98052", "583 Lane De Chantal, Port Townsend, WA 98368, USA"]
+"3321 W Kennewick Ave, Kennewick, WA 99336", "8102 161st Ave NE, Redmond, WA 98052", "583 Lane De Chantal, Port Townsend, WA 98368, USA", "24 W 1st St, Cheney, WA 99004, USA","321 1st St, Cheney, WA 99004, USA", "911 1st St, Cheney, WA 99004, USA","313 1st St, Cheney, WA 99004, USA"]
 
 var website = ["https://www.thepinkdoor.net/","http://www.pikeplacechowder.com/", "http://oceanpalaceaberdeen.com/", "http://zigzagseattle.com/",
 "https://www.wolffyshamburgers.com/", "https://www.wolffyshamburgers.com/", "https://www.adriftrestaurant.com/", "https://www.facebook.com/Dads-Diner-494325663922039/",
@@ -53,7 +54,7 @@ var website = ["https://www.thepinkdoor.net/","http://www.pikeplacechowder.com/"
 "http://blackdiamondpizzaanddeli.com/", "http://draytonharboroysters.com/", "http://munchenhaus.com/", "https://www.facebook.com/Chicos-Pizza-Parlor-308096769219277/",
 "https://www.theblackduckcaskandbottle.com/", "http://wildhuck.com/", "http://goodmoodfoodcafe.com/", "https://www.watershedpnw.com/",
 "http://www.thekettleclearwater.com/menu/", "http://www.countryboysbbq.com/", "http://www.whitehouseinyakima.com/Menus.html", "http://www.loshernandeztamales.com/",
-"https://masala-indiancuisine.com/", "https://5stonescoffeeco.com/", "https://www.tipsycowburgerbar.com/"]
+"https://masala-indiancuisine.com/", "https://5stonescoffeeco.com/", "https://www.tipsycowburgerbar.com/","https://www.benesamfix.com/", "https://www.bing.com/search?q=monterey+pub+%26+grub&form=EDGTCT&qs=PF&cvid=43328f2e0dd343cd813e289aad046c32&cc=US&setlang=en-US&elv=AXXfrEiqqD9r3GuelwApulpwCFumYXTAVpvNYLrY7N*0VWgg%21ZZc7CMyrkC2J8kla5lHuhQoFF%21Bb88OBwGImoM5MO3Y2qLtgO36aK95g4Ql&PC=SSJS","http://www.zipsdrivein.com/","http://copperhana.com/"]
 
 
 function GetMap() {
