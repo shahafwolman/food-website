@@ -135,7 +135,11 @@
 
   padding: 10px 6px 4px 6px;
   color: "gray";
+<<<<<<< HEAD
+  color:"light gray";
+=======
   color: "light gray";
+>>>>>>> 57cbc17909d6326d68597275dca2aa1762962ccd
 
 }
 #primary_nav_wrap ul li:hover > ul
@@ -154,7 +158,7 @@ background-size: cover;
 }
 .img1{
   background-image: url("https://kraftedbykelly.files.wordpress.com/2011/03/jamie4.jpg");
-}
+} 
 
 
 /*breakfast pictures*/
@@ -272,7 +276,7 @@ div#nav ul{
 }
 
 
-.image img{
+img{
   border-radius: 25px;
 }
 
@@ -294,6 +298,7 @@ div#nav ul{
 .column div {
 	position: relative;
 	float: left;
+  border-radius: 25px;
 	width: 295px;
 	height: 295px;
 	margin: 0 0 0 25px;
@@ -325,6 +330,7 @@ figure {
 	margin: 0;
 	padding: 0;
 	background: #fff;
+  border-radius: 25px;
 	overflow: hidden;
 }
 figure:hover+span {
@@ -332,7 +338,7 @@ figure:hover+span {
 	opacity: 1;
 }
 h1{
-  color: white;
+  color: green;
 
 }
 
